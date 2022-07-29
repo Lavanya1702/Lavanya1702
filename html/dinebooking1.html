@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head><title>DineBooking</title></head>
+<body>
+ <center>
+  <h3>Dine Booking</h3>
+  <form>
+  <table>
+    <tr><td>Visitor Name:</td>
+        <td><input type="text" name="vname" maxlength='20' autofocus required/></td></tr>
+    <tr><td>Number of members:</td>
+        <td><input type="number" required/></td></tr>
+    <tr><td>Contact No:</td>
+        <td><input type="tel" maxlength="10" minlength="10" required/></td></tr>
+    <tr><td>Email:</td>
+        <td><input type="email" name="email" required/></td></tr>
+     <tr><td>Type of Food:</td><td><input type="checkbox">South Indian
+                  <input type="checkbox">North Indian
+                  <input type="checkbox">Chinese
+                  <input type="checkbox">Western </td></tr>
+    <tr><td>Room Status:</td><td><input type="radio" name="room_status">AC
+                 <input type="radio" name="room_status">Non-AC</td></tr>
+    <tr><td> Venue Preference:</td><td><select>
+                    <option>--SELECT--</option>
+                    <option>Arena</option>
+                    <option>Fiesta</option>
+                    <option>Vista</option>
+                    <option>Mythri</option>
+                    <option>Oasis</option>
+                    <option disabled>Amoeba</option>
+                    </select></td></tr>
+     <tr><td><input type="submit" value="Book"/></td>
+       <td><input type="reset" value="Reset"/></td></tr>
+  </table>
+  </form>
+ </center>
+</body>
+</html>
