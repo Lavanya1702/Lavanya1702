@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>REGISTRATION FORM</title>
+</head>
+<body>
+<FORM action="sample.html">
+username:<input type=text maxlength="15"  name=user/><br>
+Password:<input type=password minlength="8" maxlength="12" pattern="{/^\d\w\d\$/}"name=pass/><br>
+Email:<input type=email name=email><br>
+Gender:<input type="radio" name="x"/>Male
+       <input type="radio" name="x"/>Female
+       <input type="radio" name="x"/>other<br>
+Age:<input type="number" min="12" max="60" name=age><br>
+Address:<textarea rows="4" cols="12"></textarea><br>
+company website:<input type="text"><br>
+choose country:<input list="country"/><br>
+       <datalist id="country">
+              <option value="India"></option>
+              <option value="UK"></option>
+              <option VALUE="USA"></option>
+              <option value="China"></option>
+              <option value="Japan"></option>
+       </datalist><br>
+Date of Journey:<input type="date"/><br>
+<input type=submit value=Login><br>
+<input type=button value=Reset><br>
+</form>
+</body>
+</html>
