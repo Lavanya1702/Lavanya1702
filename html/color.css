@@ -1,0 +1,14 @@
+table, th, td {
+    border: 2px solid white;
+    border-collapse: collapse;
+    margin:10%;
+  }
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
